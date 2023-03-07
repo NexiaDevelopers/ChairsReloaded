@@ -37,6 +37,7 @@ public class ChairUsage implements Listener
     {
         Player player = e.getPlayer();
         Block clickedBlock = e.getClickedBlock();
+        if (clickedBlock == null) return;
         Material clickedBlockType = clickedBlock.getType();
         FileConfiguration config = main.getConfig();
 
