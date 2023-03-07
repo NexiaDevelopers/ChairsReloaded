@@ -14,6 +14,37 @@ Originally developed by [ItsGeppy](https://github.com/Gepsu) and maintained by [
 
 `nexia.chairsreloaded.chairs.toggle`
 
+## Technical Stuff
+Here is what the config.yml looks like:
+
+<details>
+<summary>config.yml</summary>
+<pre>
+
+    # MAIN SETTINGS
+    checkForEmptySpace: true          # Makes sure there's space above the Chair before mounting it.
+    ignoredEmptySpaceBlocks:          # If the checkForEmptySpace is true, these items will be ignored and count as empty space. If the block contains something from this list in this name it will be ignored.
+      - AIR
+      - BANNER
+      - WALL_SIGN
+      - BUTTON
+      - LEVER
+      - TORCH
+      - TRIPWIRE
+      - VINE
+      - LADDER
+    dismountAboveChair: true         # Dismounts above the Chair and not in the Chair.
+    blacklistedWorlds:               # The Worlds that Chairs will not work on.
+      - ExampleWorld
+    
+    #     ___ _         _          ___     _              _        _
+    #    / __| |_  __ _(_)_ _ ___ | _ \___| |___  __ _ __| |___ __| |
+    #   | (__| ' \/ _` | | '_(_-< |   / -_) / _ \/ _` / _` / -_) _` |
+    #    \___|_||_\__,_|_|_| /__/ |_|_\___|_\___/\__,_\__,_\___\__,_|
+    #
+</pre>
+</details>
+
 ## FAQ
 
 - **Q**: Why Reloaded?
