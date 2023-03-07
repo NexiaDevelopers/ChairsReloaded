@@ -33,7 +33,7 @@ public class ChairsReloadedCommands extends BaseCommand
     {
         PersistentDataContainer dataContainer = player.getPersistentDataContainer();
         byte disabled = dataContainer.getOrDefault(new NamespacedKey(main, "sitDisabled"), PersistentDataType.BYTE, Byte.valueOf("1"));
-        dataContainer.set(new NamespacedKey(main, "sitDisabled"), PersistentDataType.BYTE, Byte.valueOf(disabled == 1 ? "1" : "0"));
+        dataContainer.set(new NamespacedKey(main, "sitDisabled"), PersistentDataType.BYTE, Byte.valueOf(disabled == 0 ? "1" : "0"));
 
         if (disabled == 0)
             player.sendMessage(Processes.color("&aChair sitting has been toggled to &coff&a."));
