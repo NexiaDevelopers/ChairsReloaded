@@ -1,0 +1,4 @@
+name: ChairsReloaded
+version: '${project.version}'
+main: net.nexia.chairsreloaded.ChairsReloaded
+api-version: 1.13
