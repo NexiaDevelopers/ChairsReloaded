@@ -10,6 +10,7 @@
     <packaging>jar</packaging>
 
     <name>ChairsReloaded</name>
+    <description>Minecraft plugin that allows players to be able to sit on Stairs and Slabs.</description>
 
     <properties>
         <java.version>1.8</java.version>
