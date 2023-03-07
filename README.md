@@ -12,7 +12,7 @@ Originally developed by [ItsGeppy](https://github.com/Gepsu) and maintained by [
 
 ## Permission Nodes
 
-nexia.chairsreloaded.chairs.toggle
+`nexia.chairsreloaded.chairs.toggle`
 
 ## FAQ
 
