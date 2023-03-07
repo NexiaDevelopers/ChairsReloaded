@@ -16,6 +16,16 @@ nexia.chairsreloaded.chairs.toggle
 
 ## FAQ
 
+- **Q**: Why Reloaded?
+  **A**: The original plugin was made by [ItsGeppy](https://github.com/Gepsu) and is now maintained by [HeadMonitor](https://github.com/HeadMonitor) for the [Nexia Network](https://www.playnexia.net/). Reloaded means the version that is maintained by [HeadMonitor](https://github.com/HeadMonitor) and not it's original creator.
+
+- **Q**: I have an issue, found a bug or want to request a feature. \
+  **A**: You can leave a comment on the [Discussion](https://blank.org) tab, or join our [Discord](https://blank.org) 
+         server.
+         
+- **Q**: If I request a feature what are the chances of it being accepted? How long will it take to implement? \
+  **A**: The chances are very high! We want the Plugin to be as much useful to you as possible. As for the time to implement
+         this solely depends on the complexity of the feature, but it shouldn't take more than a few days!
 ---
 
 <p align="center">
