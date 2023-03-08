@@ -47,7 +47,7 @@ Here is what the config.yml looks like:
 
 ## FAQ
 
-- **Q**: Why Reloaded?
+- **Q**: Why Reloaded? \
   **A**: The original plugin was made by [ItsGeppy](https://github.com/Gepsu) and is now maintained by [HeadMonitor](https://github.com/HeadMonitor) for the [Nexia Network](https://www.playnexia.net/). Reloaded means the version that is maintained by [HeadMonitor](https://github.com/HeadMonitor) and not it's original creator.
 
 - **Q**: I have an issue, found a bug or want to request a feature. \
