@@ -15,7 +15,6 @@ Originally developed by [ItsGeppy](https://github.com/Gepsu) and maintained by [
 - `nexia.chairsreloaded.chairs.toggle`
 
 ## Technical Stuff
-Here is what the config.yml looks like:
 
 <details>
 <summary>config.yml</summary>
