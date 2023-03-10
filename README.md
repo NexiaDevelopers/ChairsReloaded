@@ -4,7 +4,7 @@
  <img src="https://user-images.githubusercontent.com/62361708/224350839-5483032d-8053-4797-ae60-fba44476ce73.png" width=256>
 </div>
 
-Minecraft plugin that allows admins to create Trading Cards and Map Art that players can collect.
+Minecraft plugin that allows players to sit on Stairs and Slabs.
 
 Uses [NexiaAPI](https://github.com/NexiaDevelopers/NexiaAPI) and [ACF](https://github.com/aikar/commands).
 
