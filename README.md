@@ -10,11 +10,11 @@ Uses [NexiaAPI](https://github.com/NexiaDevelopers/NexiaAPI) and [ACF](https://g
 
 Originally developed by [ItsGeppy](https://github.com/Gepsu) and maintained by [HeadMonitor](https://github.com/HeadMonitor) for the [Nexia Network](https://www.playnexia.net/).
 
- Image 1                   | Image 2
-:-------------------------:|:-------------------------:
-![](https://...Dark.png](https://user-images.githubusercontent.com/62361708/224358914-2c5eda3f-4843-4edc-8d83-d64247e30ae6.png) | ![]([https://...Ocean.png](https://user-images.githubusercontent.com/62361708/224359015-359ab709-c6f9-49a8-b815-36e8e366c33c.png))
+<div>
+ <img src="https://user-images.githubusercontent.com/62361708/224358914-2c5eda3f-4843-4edc-8d83-d64247e30ae6.png" width=128>
+ <img src="https://user-images.githubusercontent.com/62361708/224359015-359ab709-c6f9-49a8-b815-36e8e366c33c.png" width=128>
+</div>
 
- 
 ## Commands
 
 - `/chairs toggle` Toggles the ability to sit on Stairs and Slabs on or off. This is helpful if Players are building with those blocks. 
