@@ -1,15 +1,19 @@
 # ChairsReloaded
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/62361708/224350839-5483032d-8053-4797-ae60-fba44476ce73.png" width=256>
+ <img src="https://user-images.githubusercontent.com/62361708/224350839-5483032d-8053-4797-ae60-fba44476ce73.png" width=256>
 </div>
-
 
 Minecraft plugin that allows admins to create Trading Cards and Map Art that players can collect.
 
 Uses [NexiaAPI](https://github.com/NexiaDevelopers/NexiaAPI) and [ACF](https://github.com/aikar/commands).
 
 Originally developed by [ItsGeppy](https://github.com/Gepsu) and maintained by [HeadMonitor](https://github.com/HeadMonitor) for the [Nexia Network](https://www.playnexia.net/).
+
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/224358914-2c5eda3f-4843-4edc-8d83-d64247e30ae6.png">
+ <img src="https://user-images.githubusercontent.com/62361708/224359015-359ab709-c6f9-49a8-b815-36e8e366c33c.png">
+</div>
 
 ## Commands
 
