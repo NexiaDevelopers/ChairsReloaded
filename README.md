@@ -1,10 +1,23 @@
 # ChairsReloaded
 
-Minecraft plugin that allows admins to create Trading Cards and Map Art that players can collect.
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/224350839-5483032d-8053-4797-ae60-fba44476ce73.png" width=256>
+</div>
+
+Minecraft plugin that allows players to sit on Stairs and Slabs.
 
 Uses [NexiaAPI](https://github.com/NexiaDevelopers/NexiaAPI) and [ACF](https://github.com/aikar/commands).
 
 Originally developed by [ItsGeppy](https://github.com/Gepsu) and maintained by [HeadMonitor](https://github.com/HeadMonitor) for the [Nexia Network](https://www.playnexia.net/).
+
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/224358914-2c5eda3f-4843-4edc-8d83-d64247e30ae6.png" width=400>
+ <img src="https://user-images.githubusercontent.com/62361708/224359015-359ab709-c6f9-49a8-b815-36e8e366c33c.png" width=400>
+</div>
+
+## How To Use
+
+Just place the .jar file in your plugins folder and the plugin should work! Easy as that!
 
 ## Commands
 
@@ -12,10 +25,9 @@ Originally developed by [ItsGeppy](https://github.com/Gepsu) and maintained by [
 
 ## Permission Nodes
 
-`nexia.chairsreloaded.chairs.toggle`
+- `nexia.chairsreloaded.chairs.toggle`
 
 ## Technical Stuff
-Here is what the config.yml looks like:
 
 <details>
 <summary>config.yml</summary>
@@ -48,7 +60,7 @@ Here is what the config.yml looks like:
 
 ## FAQ
 
-- **Q**: Why Reloaded?
+- **Q**: Why Reloaded? \
   **A**: The original plugin was made by [ItsGeppy](https://github.com/Gepsu) and is now maintained by [HeadMonitor](https://github.com/HeadMonitor) for the [Nexia Network](https://www.playnexia.net/). Reloaded means the version that is maintained by [HeadMonitor](https://github.com/HeadMonitor) and not it's original creator.
 
 - **Q**: I have an issue, found a bug or want to request a feature. \
