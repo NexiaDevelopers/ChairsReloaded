@@ -1,5 +1,3 @@
-# ChairsReloaded
-
 <div align="center">
  <img src="https://user-images.githubusercontent.com/62361708/224350839-5483032d-8053-4797-ae60-fba44476ce73.png" width=256>
 </div>
