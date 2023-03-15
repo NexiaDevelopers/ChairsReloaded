@@ -9,7 +9,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_16">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -30,7 +30,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.code.gson:gson:2.10" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: net.md-5:bungeecord-chat:1.16-R0.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.yaml:snakeyaml:1.33" level="project" />
-    <orderEntry type="library" name="Maven: com.github.NexiaDevelopers:NexiaAPI:v1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.NexiaDevelopers:NexiaAPI:10266e77b3" level="project" />
     <orderEntry type="library" name="Maven: io.github.classgraph:classgraph:4.8.154" level="project" />
     <orderEntry type="library" name="Maven: co.aikar:acf-bukkit:0.5.1-SNAPSHOT" level="project" />
   </component>

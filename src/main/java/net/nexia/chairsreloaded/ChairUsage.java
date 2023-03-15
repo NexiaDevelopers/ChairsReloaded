@@ -76,14 +76,18 @@ public class ChairUsage implements Listener
             }
 
             //Checks if Block is Stair or Slab
-            if (e.getClickedBlock().getBlockData() instanceof Stairs stair)
+            if (e.getClickedBlock().getBlockData() instanceof Stairs)
             {
+                Stairs stair = (Stairs) e.getClickedBlock().getBlockData();
+
                 if (stair.getHalf() != Bisected.Half.TOP)
                     if (!Utilities.isOccupied(e.getClickedBlock()))
                         Utilities.sit(e.getPlayer(), e.getClickedBlock());
             }
-            else if (e.getClickedBlock().getBlockData() instanceof Slab slab)
+            else if (e.getClickedBlock().getBlockData() instanceof Slab)
             {
+                Slab slab = (Slab) e.getClickedBlock().getBlockData();
+
                 if (slab.getType() != Slab.Type.TOP && slab.getType() != Slab.Type.DOUBLE)
                 {
                     if (!Utilities.isOccupied(e.getClickedBlock()))
@@ -99,8 +103,10 @@ public class ChairUsage implements Listener
     @EventHandler
     public void onEntityDismount(EntityDismountEvent e)
     {
-        if (e.getEntity() instanceof Player player)
+        if (e.getEntity() instanceof Player)
         {
+            Player player = (Player) e.getEntity();
+
             if (Utilities.isSitting(player.getUniqueId()))
                 Utilities.dismount(player);
         }

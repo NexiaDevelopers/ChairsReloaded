@@ -32,7 +32,7 @@ public class ChairsReloadedCommands extends BaseCommand
     private void toggleSubcommand(Player player)
     {
         PersistentDataContainer dataContainer = player.getPersistentDataContainer();
-        byte disabled = dataContainer.getOrDefault(new NamespacedKey(main, "sitDisabled"), PersistentDataType.BYTE, Byte.valueOf("1"));
+        byte disabled = dataContainer.getOrDefault(new NamespacedKey(main, "sitDisabled"), PersistentDataType.BYTE, Byte.valueOf("0"));
         dataContainer.set(new NamespacedKey(main, "sitDisabled"), PersistentDataType.BYTE, Byte.valueOf(disabled == 0 ? "1" : "0"));
 
         if (disabled == 0)
