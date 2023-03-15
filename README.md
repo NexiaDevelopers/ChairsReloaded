@@ -1,5 +1,3 @@
-# ChairsReloaded
-
 <div align="center">
  <img src="https://user-images.githubusercontent.com/62361708/224350839-5483032d-8053-4797-ae60-fba44476ce73.png" width=256>
 </div>
@@ -15,19 +13,27 @@ Originally developed by [ItsGeppy](https://github.com/Gepsu) and maintained by [
  <img src="https://user-images.githubusercontent.com/62361708/224359015-359ab709-c6f9-49a8-b815-36e8e366c33c.png" width=400>
 </div>
 
-## How To Use
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/225291005-6b6bf7df-50bf-48f6-acbe-d50772ee865a.png">
+</div>
 
-Just place the .jar file in your plugins folder and the plugin should work! Easy as that!
+Just place the .jar file in your plugins folder and the plugin should work! Easy as that! After that you can configure the the plugin from the `config.yml` to your needs.
 
-## Commands
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/225288203-3f8324f9-5a02-4156-9159-b13429466559.png">
+</div>
 
 - `/chairs toggle` Toggles the ability to sit on Stairs and Slabs on or off. This is helpful if Players are building with those blocks. 
 
-## Permission Nodes
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/225288290-f1b60d76-9af8-40f6-90d3-c5a6083cf661.png">
+</div>
 
 - `nexia.chairsreloaded.chairs.toggle`
 
-## Technical Stuff
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/225288387-3b514380-63ec-467d-95c0-c0ebd76105ac.png">
+</div>
 
 <details>
 <summary>config.yml</summary>
@@ -58,7 +64,15 @@ Just place the .jar file in your plugins folder and the plugin should work! Easy
 </pre>
 </details>
 
-## FAQ
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/225434090-dce1fb3c-9ff6-43e9-80c3-76ac800ad7f5.png">
+</div>
+
+You can get **Support**, **Request a Feature** or **Report a Bug** through the [Discussion](https://blank.org) tab or through our [Discord](https://blank.org). We will do our best to help you out!
+
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/225288503-a789afa0-4be5-4ff4-a83f-9d28c4dda1ed.png">
+</div>
 
 - **Q**: Why Reloaded? \
   **A**: The original plugin was made by [ItsGeppy](https://github.com/Gepsu) and is now maintained by [HeadMonitor](https://github.com/HeadMonitor) for the [Nexia Network](https://www.playnexia.net/). Reloaded means the version that is maintained by [HeadMonitor](https://github.com/HeadMonitor) and not it's original creator.
