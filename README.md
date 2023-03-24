@@ -86,6 +86,13 @@ You can get **Support**, **Request a Feature** or **Report a Bug** through the [
          this solely depends on the complexity of the feature, but it shouldn't take more than a few days!
 
 <div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/225291382-810daed4-d1d1-4459-b9b3-3ac7fa5713d2.png">
+</div>
+
+- Versions priot to **1.14** will not save the player's toggle state on server restarts.
+- Versions prior to **1.13** are not supported since SpigotAPI is missing features that the plugin uses.
+
+<div align="center">
  <img src="https://user-images.githubusercontent.com/62361708/225436833-ae8c3941-335e-452b-aa48-7cc490ee4a11.png">
 </div>
 
