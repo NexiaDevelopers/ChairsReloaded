@@ -30,7 +30,7 @@ public class ChairData
         Location loc = chair.getLocation().add(0.5, 0.3, 0.5);
         stand = chair.getWorld().spawn(loc, ArmorStand.class, (settings) ->
         {
-            settings.setInvisible(true);
+            settings.setVisible(false);
             settings.setGravity(false);
             settings.setMarker(true);
             settings.setSmall(true);

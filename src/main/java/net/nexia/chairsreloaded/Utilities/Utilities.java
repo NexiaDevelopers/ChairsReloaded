@@ -10,6 +10,8 @@ import java.util.UUID;
 public class Utilities
 {
 
+    public static boolean isSitToggled = false;
+
     private static final HashMap<UUID, ChairData> occupied = new HashMap<>();
 
     /**
