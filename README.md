@@ -84,7 +84,10 @@ You can get **Support**, **Request a Feature** or **Report a Bug** through the [
 - **Q**: If I request a feature what are the chances of it being accepted? How long will it take to implement? \
   **A**: The chances are very high! We want the Plugin to be as much useful to you as possible. As for the time to implement
          this solely depends on the complexity of the feature, but it shouldn't take more than a few days!
----
+
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/225436833-ae8c3941-335e-452b-aa48-7cc490ee4a11.png">
+</div>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/62361708/220228413-2fea94e2-f7fe-4708-84d7-f8ac6a7bec5f.png"/>
