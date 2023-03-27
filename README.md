@@ -39,6 +39,7 @@ Just place the .jar file in your plugins folder and the plugin should work! Easy
 <summary>config.yml</summary>
 <pre>
 
+```yaml
     # MAIN SETTINGS
     checkForEmptySpace: true          # Makes sure there's space above the Chair before mounting it.
     ignoredEmptySpaceBlocks:          # If the checkForEmptySpace is true, these items will be ignored and count as empty space. If the block contains something from this list in this name it will be ignored.
@@ -61,6 +62,7 @@ Just place the .jar file in your plugins folder and the plugin should work! Easy
     #   | |___| | | | (_| | | |  \__ \ |  _ <  __/ | (_) | (_| | (_| |  __/ (_| |
     #    \____|_| |_|\__,_|_|_|  |___/ |_| \_\___|_|\___/ \__,_|\__,_|\___|\__,_|
     #                                                                            
+```
 </pre>
 </details>
 
