@@ -1,6 +1,7 @@
 package net.nexia.chairsreloaded;
 
 import net.nexia.chairsreloaded.Utilities.Utilities;
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.block.Block;
@@ -42,9 +43,15 @@ public class ChairUsage implements Listener
         FileConfiguration config = main.getConfig();
 
         //Checks whether Player has toggled the plugin
-        PersistentDataContainer dataContainer = e.getPlayer().getPersistentDataContainer();
-        var disabled = dataContainer.getOrDefault(new NamespacedKey(main, "sitDisabled"), PersistentDataType.BYTE, Byte.valueOf("0"));
-        if (disabled == 1) return;
+        String version = Bukkit.getServer().getBukkitVersion().replace(".", "").split("-")[0];
+        if (Integer.parseInt(version) >= 1140)  //For Versions 1.14 and up
+        {
+            PersistentDataContainer dataContainer = e.getPlayer().getPersistentDataContainer();
+            Byte disabled = dataContainer.getOrDefault(new NamespacedKey(main, "sitDisabled"), PersistentDataType.BYTE, Byte.valueOf("1"));
+            if (disabled == 0) return;
+        }
+        else //For Versions 1.13 and down
+            if (!Utilities.isSitToggled) return;
 
         if (e.getAction() == Action.RIGHT_CLICK_BLOCK && player.getInventory().getItemInMainHand().getType() == Material.AIR &&
                 (clickedBlockType.name().contains("SLAB") || clickedBlockType.name().contains("STAIRS")))
@@ -76,14 +83,18 @@ public class ChairUsage implements Listener
             }
 
             //Checks if Block is Stair or Slab
-            if (e.getClickedBlock().getBlockData() instanceof Stairs stair)
+            if (e.getClickedBlock().getBlockData() instanceof Stairs)
             {
+                Stairs stair = (Stairs) e.getClickedBlock().getBlockData();
+
                 if (stair.getHalf() != Bisected.Half.TOP)
                     if (!Utilities.isOccupied(e.getClickedBlock()))
                         Utilities.sit(e.getPlayer(), e.getClickedBlock());
             }
-            else if (e.getClickedBlock().getBlockData() instanceof Slab slab)
+            else if (e.getClickedBlock().getBlockData() instanceof Slab)
             {
+                Slab slab = (Slab) e.getClickedBlock().getBlockData();
+
                 if (slab.getType() != Slab.Type.TOP && slab.getType() != Slab.Type.DOUBLE)
                 {
                     if (!Utilities.isOccupied(e.getClickedBlock()))
@@ -99,8 +110,10 @@ public class ChairUsage implements Listener
     @EventHandler
     public void onEntityDismount(EntityDismountEvent e)
     {
-        if (e.getEntity() instanceof Player player)
+        if (e.getEntity() instanceof Player)
         {
+            Player player = (Player) e.getEntity();
+
             if (Utilities.isSitting(player.getUniqueId()))
                 Utilities.dismount(player);
         }
