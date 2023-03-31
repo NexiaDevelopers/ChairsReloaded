@@ -41,8 +41,8 @@ Just place the .jar file in your plugins folder and the plugin should work! Easy
 
 ```yaml
     # MAIN SETTINGS
-    checkForEmptySpace: true          # Makes sure there's space above the Chair before mounting it.
-    ignoredEmptySpaceBlocks:          # If the checkForEmptySpace is true, these items will be ignored and count as empty space. If the block contains something from this list in this name it will be ignored.
+    CheckForEmptySpace: true          # Makes sure there's space above the Chair before mounting it.
+    IgnoredEmptySpaceBlocks:          # If the checkForEmptySpace is true, these items will be ignored and count as empty space. If the block contains something from this list in this name it will be ignored.
       - AIR
       - BANNER
       - WALL_SIGN
@@ -52,8 +52,8 @@ Just place the .jar file in your plugins folder and the plugin should work! Easy
       - TRIPWIRE
       - VINE
       - LADDER
-    dismountAboveChair: true         # Dismounts above the Chair and not in the Chair.
-    blacklistedWorlds:               # The Worlds that Chairs will not work on.
+    DismountAboveChair: true         # Dismounts above the Chair and not in the Chair.
+    BlacklistedWorlds:               # The Worlds that Chairs will not work on.
       - ExampleWorld
     
     #     ____ _           _            ____      _                 _          _ 
