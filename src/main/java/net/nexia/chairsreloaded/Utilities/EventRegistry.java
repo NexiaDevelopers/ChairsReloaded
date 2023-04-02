@@ -11,7 +11,6 @@ public class EventRegistry
     public EventRegistry(JavaPlugin plugin)
     {
         PluginManager pluginManager = Bukkit.getPluginManager();
-
         pluginManager.registerEvents(new ChairUsage(), plugin);
     }
 

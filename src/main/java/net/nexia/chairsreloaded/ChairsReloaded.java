@@ -2,6 +2,7 @@ package net.nexia.chairsreloaded;
 
 import net.nexia.chairsreloaded.Utilities.CommandRegistry;
 import net.nexia.chairsreloaded.Utilities.EventRegistry;
+import net.nexia.chairsreloaded.Utilities.FileSetup;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class ChairsReloaded extends JavaPlugin
@@ -19,6 +20,7 @@ public final class ChairsReloaded extends JavaPlugin
         //Utilities
         new CommandRegistry(this);
         new EventRegistry(this);
+        new FileSetup(this);
 
         //Config Access
         this.getConfig().options().copyDefaults();

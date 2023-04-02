@@ -6,7 +6,7 @@
 
     <groupId>net.nexia</groupId>
     <artifactId>ChairsReloaded</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
 
     <name>ChairsReloaded</name>
@@ -86,7 +86,7 @@
         <dependency>
             <groupId>com.github.NexiaDevelopers</groupId>
             <artifactId>NexiaAPI</artifactId>
-            <version>10266e77b3</version>
+            <version>1.1.1</version>
         </dependency>
 
         <dependency>
