@@ -66,6 +66,20 @@ Just place the .jar file in your plugins folder and the plugin should work! Easy
 </pre>
 </details>
 
+<details>
+<summary>messages.yml</summary>
+<pre>
+
+```
+ChairsCommands:
+  InvalidUsage: '&cInvalid usage. Use &7/chairs toggle&c.'
+  Toggle:
+    ToggleOn: '&aChair sitting has been toggled to &7on&a.'
+    ToggleOff: '&aChair sitting has been toggled to &coff&a.'
+```
+</pre>
+</details>
+
 <div align="center">
  <img src="https://user-images.githubusercontent.com/62361708/225434090-dce1fb3c-9ff6-43e9-80c3-76ac800ad7f5.png">
 </div>
