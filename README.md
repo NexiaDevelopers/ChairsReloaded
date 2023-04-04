@@ -39,9 +39,10 @@ Just place the .jar file in your plugins folder and the plugin should work! Easy
 <summary>config.yml</summary>
 <pre>
 
+```yaml
     # MAIN SETTINGS
-    checkForEmptySpace: true          # Makes sure there's space above the Chair before mounting it.
-    ignoredEmptySpaceBlocks:          # If the checkForEmptySpace is true, these items will be ignored and count as empty space. If the block contains something from this list in this name it will be ignored.
+    CheckForEmptySpace: true          # Makes sure there's space above the Chair before mounting it.
+    IgnoredEmptySpaceBlocks:          # If the checkForEmptySpace is true, these items will be ignored and count as empty space. If the block contains something from this list in this name it will be ignored.
       - AIR
       - BANNER
       - WALL_SIGN
@@ -51,8 +52,8 @@ Just place the .jar file in your plugins folder and the plugin should work! Easy
       - TRIPWIRE
       - VINE
       - LADDER
-    dismountAboveChair: true         # Dismounts above the Chair and not in the Chair.
-    blacklistedWorlds:               # The Worlds that Chairs will not work on.
+    DismountAboveChair: true         # Dismounts above the Chair and not in the Chair.
+    BlacklistedWorlds:               # The Worlds that Chairs will not work on.
       - ExampleWorld
     
     #     ____ _           _            ____      _                 _          _ 
@@ -61,6 +62,21 @@ Just place the .jar file in your plugins folder and the plugin should work! Easy
     #   | |___| | | | (_| | | |  \__ \ |  _ <  __/ | (_) | (_| | (_| |  __/ (_| |
     #    \____|_| |_|\__,_|_|_|  |___/ |_| \_\___|_|\___/ \__,_|\__,_|\___|\__,_|
     #                                                                            
+```
+</pre>
+</details>
+
+<details>
+<summary>messages.yml</summary>
+<pre>
+
+```
+ChairsCommands:
+  InvalidUsage: '&cInvalid usage. Use &7/chairs toggle&c.'
+  Toggle:
+    ToggleOn: '&aChair sitting has been toggled to &7on&a.'
+    ToggleOff: '&aChair sitting has been toggled to &coff&a.'
+```
 </pre>
 </details>
 
@@ -84,6 +100,13 @@ You can get **Support**, **Request a Feature** or **Report a Bug** through the [
 - **Q**: If I request a feature what are the chances of it being accepted? How long will it take to implement? \
   **A**: The chances are very high! We want the Plugin to be as much useful to you as possible. As for the time to implement
          this solely depends on the complexity of the feature, but it shouldn't take more than a few days!
+
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/62361708/225291382-810daed4-d1d1-4459-b9b3-3ac7fa5713d2.png">
+</div>
+
+- Versions prior to **1.14** will not save the player's toggle state on server restarts.
+- Versions prior to **1.13** are not supported since SpigotAPI is missing features that the plugin uses.
 
 <div align="center">
  <img src="https://user-images.githubusercontent.com/62361708/225436833-ae8c3941-335e-452b-aa48-7cc490ee4a11.png">

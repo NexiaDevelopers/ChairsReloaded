@@ -58,19 +58,19 @@ public class ChairUsage implements Listener
                 (clickedBlockType.name().contains("SLAB") || clickedBlockType.name().contains("STAIRS")))
         {
             //Checks if current world is BlackListed
-            for (String world : config.getStringList("blacklistedWorlds"))
+            for (String world : config.getStringList("BlacklistedWorlds"))
             {
                 if (e.getClickedBlock().getWorld().getName().equals(world))
                     return;
             }
 
             //Checks if there is space above the Chair if enabled via config
-            if (main.getConfig().getBoolean("checkForEmptySpace"))
+            if (main.getConfig().getBoolean("CheckForEmptySpace"))
             {
                 boolean found = false;
 
                 //Checks for ignored blocks for empty space via config
-                for (String block : config.getStringList("ignoredEmptySpaceBlocks"))
+                for (String block : config.getStringList("IgnoredEmptySpaceBlocks"))
                 {
                     if (clickedBlock.getLocation().add(0, 1, 0).getBlock().getType().toString().startsWith(block) ||
                             clickedBlock.getLocation().add(0, 1, 0).getBlock().getType().toString().contains("_" + block))

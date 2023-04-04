@@ -59,7 +59,7 @@ public class ChairData
         stand.remove();
 
         //When Player teleports away after dismounts it gives errors, so this is a 1 tick delay to fix that.
-        if (main.getConfig().getBoolean("dismountAboveChair") && player.isSneaking())
+        if (main.getConfig().getBoolean("DismountAboveChair") && player.isSneaking())
             Bukkit.getScheduler().scheduleSyncDelayedTask(main, () -> player.teleport(player.getLocation().add(0, 0.8, 0)), 1);
     }
 

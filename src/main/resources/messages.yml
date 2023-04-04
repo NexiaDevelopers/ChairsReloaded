@@ -1,0 +1,5 @@
+ChairsCommands:
+  InvalidUsage: '&cInvalid usage. Use &7/chairs toggle&c.'
+  Toggle:
+    ToggleOn: '&aChair sitting has been toggled to &7on&a.'
+    ToggleOff: '&aChair sitting has been toggled to &coff&a.'
