@@ -1,5 +1,6 @@
-package net.nexia.chairsreloaded;
+package net.nexia.chairsreloaded.Events;
 
+import net.nexia.chairsreloaded.ChairsReloaded;
 import net.nexia.chairsreloaded.Utilities.Utilities;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;

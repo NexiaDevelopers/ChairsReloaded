@@ -10,7 +10,6 @@ import net.nexia.chairsreloaded.Utilities.Utilities;
 import net.nexia.nexiaapi.Processes;
 import org.bukkit.Bukkit;
 import org.bukkit.NamespacedKey;
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
@@ -23,9 +22,8 @@ public class ChairsReloadedCommands extends BaseCommand
     ChairsReloaded main = ChairsReloaded.getMain();
 
     @Default
-    private void invalidUsage(CommandSender sender)
+    private void invalidUsage(Player player)
     {
-        Player player = (Player) sender;
         player.sendMessage(Processes.color("&cInvalid usage. Use &7/chairs toggle&c."));
     }
 
