@@ -84,21 +84,21 @@ ChairsCommands:
  <img src="https://user-images.githubusercontent.com/62361708/225434090-dce1fb3c-9ff6-43e9-80c3-76ac800ad7f5.png">
 </div>
 
-You can get **Support**, **Request a Feature** or **Report a Bug** through the [Discussion](https://blank.org) tab or through our [Discord](https://blank.org). We will do our best to help you out!
+You can get **Support**, **Request a Feature** or **Report a Bug** through the [Discussion](https://www.spigotmc.org/threads/1-13-1-19-4-%E2%AD%90-chairs-reloaded-%E2%AD%90-sitting-plugin.598821/) tab or through our [Discord](https://discord.com/invite/ZfPq82BCM8). We will do our best to help you out!
 
 <div align="center">
  <img src="https://user-images.githubusercontent.com/62361708/225288503-a789afa0-4be5-4ff4-a83f-9d28c4dda1ed.png">
 </div>
 
-- **Q**: Why Reloaded? \
-  **A**: The original plugin was made by [ItsGeppy](https://github.com/Gepsu) and is now maintained by [HeadMonitor](https://github.com/HeadMonitor) for the [Nexia Network](https://www.playnexia.net/). Reloaded means the version that is maintained by [HeadMonitor](https://github.com/HeadMonitor) and not it's original creator.
+- **Q:** Why Reloaded? \
+  **A:** The original plugin was made by [ItsGeppy](https://github.com/Gepsu) and is now maintained by [HeadMonitor](https://github.com/HeadMonitor) for the [Nexia Network](https://www.playnexia.net/). Reloaded means the version that is maintained by [HeadMonitor](https://github.com/HeadMonitor) and not it's original creator.
 
-- **Q**: I have an issue, found a bug or want to request a feature. \
-  **A**: You can leave a comment on the [Discussion](https://blank.org) tab, or join our [Discord](https://blank.org) 
+- **Q:** I have an issue, found a bug or want to request a feature. \
+  **A:** You can leave a comment on the [Discussion](https://www.spigotmc.org/threads/1-13-1-19-4-%E2%AD%90-chairs-reloaded-%E2%AD%90-sitting-plugin.598821/) tab, or join our [Discord](https://discord.com/invite/ZfPq82BCM8) 
          server.
          
-- **Q**: If I request a feature what are the chances of it being accepted? How long will it take to implement? \
-  **A**: The chances are very high! We want the Plugin to be as much useful to you as possible. As for the time to implement
+- **Q:** If I request a feature what are the chances of it being accepted? How long will it take to implement? \
+  **A:** The chances are very high! We want the Plugin to be as much useful to you as possible. As for the time to implement
          this solely depends on the complexity of the feature, but it shouldn't take more than a few days!
 
 <div align="center">
